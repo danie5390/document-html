@@ -1,4 +1,41 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: brown;
+    color: black;
+
 }
+#imagen {
+    width: 600px;
+    height: 300px;
+}
+.link {
+    background-color: antiquewhite;  
+    border-radius: 6px;     
+ }
+a:hover{
+    background-color: rgb(0, 155, 202);
+    overflow: hidden;
+      }
+ body{
+      background-color: rgb(0, 155, 202);
+      }
+      ul{
+          list-style-type: circle;
+
+      }
+      .taskbar{
+          list-style-type: none;
+          margin: 0px;
+          padding: 0px;
+          background-color: blue;
+          overflow: hidden;
+      }
+      .barra{
+          float: left;
+      }
+      .barra a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 10px 10px;
+          text-decoration: none;
+      }
