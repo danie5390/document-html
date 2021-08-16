@@ -28,6 +28,7 @@ a:hover{
           padding: 0px;
           background-color: blue;
           overflow: hidden;
+
       }
       .barra{
           float: left;
@@ -39,3 +40,49 @@ a:hover{
           padding: 10px 10px;
           text-decoration: none;
       }
+      @media screen and (max-width:500px)  {
+        .nav {
+            text-align: center;
+        }
+        head{
+            margin-top: 75px;
+            text-align: center;
+        }
+        header > img {
+            width: 75px;
+            height: 75px;
+        }
+        li > a {
+            padding: 10px 10px;
+        }
+      }
+      @media screen and (min-width:768px) and (max-width:1024px){
+        header > img {
+            width: 100;
+        }
+        header{
+            text-align: center;
+        }
+        li > a {
+            padding: 20px;
+        }
+        h1 {
+            margin-top: 100px;
+            text-align: center;
+        }
+         * {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        h2, h3 {
+            font-size: 30px;
+        }
+        .pgweb {
+            margin-top: 75px;
+        }
+        #barra {
+            margin-top: 100px;
+        }
+    }
