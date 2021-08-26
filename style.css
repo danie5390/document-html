@@ -1,6 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: whitesmoke;
 
 }
 #imagen {
@@ -8,81 +8,49 @@ body {
     height: 300px;
 }
 .link {
-    background-color: antiquewhite;  
-    border-radius: 6px;     
+    background-color:black;  
+    border-radius: 6px; 
+    color: white;    
  }
 a:hover{
     background-color: rgb(0, 155, 202);
     overflow: hidden;
       }
- body{
-      background-color: rgb(0, 155, 202);
-      }
       ul{
           list-style-type: circle;
-
       }
-      .taskbar{
-          list-style-type: none;
+      #ul {
+          list-style: none;
           margin: 0px;
           padding: 0px;
-          background-color: blue;
-          overflow: hidden;
-
       }
-      .barra{
+      .li {
           float: left;
-      }
-      .barra a {
-          display: block;
           color: white;
-          text-align: center;
-          padding: 10px 10px;
           text-decoration: none;
+          display: block;
+          padding: 20px;
+          margin: 10px 30px;
       }
-      @media screen and (max-width:500px)  {
-        .nav {
-            text-align: center;
-        }
-        head{
-            margin-top: 75px;
-            text-align: center;
-        }
-        header > img {
-            width: 75px;
-            height: 75px;
-        }
-        li > a {
-            padding: 10px 10px;
-        }
+      .img {
+        text-align: center;
       }
-      @media screen and (min-width:768px) and (max-width:1024px){
-        header > img {
-            width: 100;
-        }
-        header{
-            text-align: center;
-        }
-        li > a {
-            padding: 20px;
-        }
-        h1 {
-            margin-top: 100px;
-            text-align: center;
-        }
-         * {
-            font-size: 20px;
-        }
-        h1 {
-            font-size: 40px;
-        }
-        h2, h3 {
-            font-size: 30px;
-        }
-        .pgweb {
-            margin-top: 75px;
-        }
-        #barra {
-            margin-top: 100px;
-        }
-    }
+      
+      @media screen and (max-width: 560px) {
+         body {
+             background-color:rgb(122, 2, 2);
+             font-size: 10px;
+             width: 340px;
+             margin: 15px;
+
+         }
+     }
+   
+     @media only screen and (min-width: 561px) {
+         body {
+             background-color: gray;
+             font-size: 28px;
+             width: 800px;
+             margin: 15px;
+         }
+          }
